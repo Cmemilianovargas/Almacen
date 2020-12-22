@@ -149,7 +149,7 @@ font-size: 3rem;
  
 .footerlogo:hover  {
    -webkit-transform:scale(1.1);transform:scale(1.1);}
-.footerlogo {
+.footerlogo img{
    border: solid 1px black;
    border-radius: 180px;
    padding: 5px;
