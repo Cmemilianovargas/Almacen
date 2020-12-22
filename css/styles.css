@@ -1,0 +1,655 @@
+* { margin: 0;
+padding: 0;}
+
+ 
+
+
+/* header mediaquerries y sass==========================================*/
+
+
+header {
+   width: 100%;
+}
+
+.navbar {
+   background-color: #ddaa10;
+   position: fixed;
+	 
+	
+}
+
+.navbar-dark .navbar-nav .nav-link{
+   color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+   color: white;
+    }
+
+.dropdown-menu {
+   background-color: #ddaa10;
+}
+
+.carousel-caption p{
+
+   color:white;
+   font-size: 2rem;
+   font-family: 'roboto';
+   text-transform: uppercase;
+   line-height: 1.6;
+   letter-spacing: 2px;
+   font-style: italic;
+   font-weight: bolder;
+   text-shadow:
+       0 0 1px #000,
+       -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+       1px 1px 0 #000;
+     
+
+}
+
+.carousel-caption p em {
+   color:#ddaa10;
+   font-family: Arial, Helvetica, sans-serif; 
+   text-decoration-line: none;
+   font-style: normal;
+   font-weight:normal;
+   font-size: 1.2rem;
+   text-align: center;
+   text-transform: uppercase;
+   line-height: 1.6;
+   letter-spacing: 2px;
+   padding: 10px;
+   font-weight:bolder ;
+}
+
+.carousel-caption i {
+      color: black;
+      padding: 10px; }
+
+
+/* footer mediaquerries y sass==========================================*/
+
+.footerfooter {
+
+   background-color: #3E482F;
+}
+
+.redeslist-inline li a{
+
+display: flex;
+color: white;
+font-size: 3rem;
+ flex-direction: row; 
+ padding: 0.5rem;
+ list-style: none;
+ text-decoration: none;
+}
+ 
+.redeslist-inline {
+ 
+   display: flex;  flex-direction: row; 
+   justify-content: center;
+   padding: 0.3rem;
+   margin: 5px;
+}
+
+.redeslist-inline li a:hover {
+
+   color:#ddaa10;
+   -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+
+
+.menulist-unstyled li a{
+
+   display: flex;
+   color: white;
+   font-size: 1rem;
+    flex-direction: row; 
+    padding: 0.5rem;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+
+   } 
+
+.menulist-unstyled   {
+   list-style: none;
+   }
+
+.menulist-unstyled li a:hover
+
+      {color: #ddaa10;}
+
+.menulist1-unstyled li {
+
+   display: flex;
+   color: white;
+   font-size: 1rem;
+   flex-direction: row; 
+   padding: 0rem 0rem 3rem 0rem ;
+   list-style: none;
+   text-decoration: none;
+   justify-content: center;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 0.938rem;
+   text-align: center;
+   text-transform: normal;
+   line-height: 1.6;
+   letter-spacing: 2px;
+      } 
+   
+.menulist1-unstyled   {
+      list-style: none;
+      }
+ 
+.footerlogo:hover  {
+   -webkit-transform:scale(1.1);transform:scale(1.1);}
+.footerlogo {
+   border: solid 1px black;
+   border-radius: 180px;
+   padding: 5px;
+   overflow:hidden;}
+
+.seguinos {
+   padding: 1px;
+   margin: 1px;
+   color: #ddaa10;
+  font-weight: bold;
+}   
+.text-uppercase {
+   color: #ddaa10;
+}
+
+.list-unstyled:hover {
+   -webkit-transform:scale(1.1);transform:scale(1.1);
+
+}
+
+/*MAIN INDEX**********************************************************/
+/*BOTON FLOTANTE**********************************************************/
+.arrow-btn {
+
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+
+}
+
+.arrow-btn a{
+   height: 40px;
+   width: 40px;
+   text-align:center ;
+   background:#3E482F;
+   display:block ;
+   border-radius:20px ;
+   cursor: pointer;
+   z-index: 9px;
+   border: solid #ddaa10 2px;
+
+}
+
+.arrow-btn:hover {
+   color: #ddaa10;
+}
+.arrow-btn a span{
+   color: aliceblue;
+   line-height: 40px;
+   font-size: 25px;
+}
+/*BOTON FLOTANTE**********************************************************/
+
+
+/*COMBOS MAIN INDEX*/
+.divcombos h2 {
+    display: inline-block;
+    position: relative;
+} 
+
+h2::after,h2::before {
+   content:'';
+   position: absolute;
+   width: 10.625rem;
+   height: 3px;
+   background-color: black;
+   top: 0.6em;
+}
+
+h2::after{
+   left: 9rem;
+}
+
+h2::before{
+   right: 9rem;
+} 
+
+.divcombos a {
+
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 0.938rem;
+   padding: 3rem;
+   justify-content: center;
+   text-transform: uppercase;
+
+}
+.divcombos a:hover {
+
+   color: #ddaa10;
+}
+
+/*DESTACADOS MAIN INDEX*/
+
+
+.divdestacados h2 {
+      display: inline-block;
+      position: relative;
+  } 
+h2::after,h2::before {
+     content:'';
+     position: absolute;
+     width: 5.625rem;
+     height: 3px;
+     background-color: black;
+     top: 0.6em;
+  }
+.divdestacados h2::after{
+   left: 12.625rem;
+}
+
+.divdestacados h2::before{
+   right: 12.625rem;
+}   
+
+.divdestacados a {
+
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 0.938rem;
+   padding: 1rem;
+   justify-content: center;
+   text-transform: uppercase;
+}
+.divdestacados a:hover {
+
+   color: #ddaa10;
+}
+
+/*ESTILOS EN LAS IMAGENES*************************/
+
+.card  {   
+   opacity: 0.7;
+   border-radius: 20px;
+   border: 5px double;
+   color: black;
+ }
+ 
+.card:hover {
+   opacity: 1.0;
+ 
+ }
+
+.card-text {
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 0.938rem;
+   padding: 1rem;
+   justify-content: center;
+}
+.card-title a{
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 1.5rem;
+   padding: 1rem;
+   justify-content: center;
+   text-decoration-line: none;
+
+}
+
+.card-img-top {
+   border-radius: 16px;
+
+}
+
+/*MAIN  PAGINA COMBOS*********************************/
+
+.mainmain1 .divcombos h2 {
+   display: inline-block;
+   position: relative;
+} 
+
+h2::after,h2::before {
+  content:'';
+  position: absolute;
+  width: 5.625rem;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
+}
+
+h2::after{
+  left: 8rem;
+}
+
+h2::before{
+  right: 8rem;
+} 
+
+.mainmain1 .divcombos a {
+
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 0.938rem;
+   padding: 4rem;
+   justify-content: center;
+   text-transform: uppercase;
+
+}
+
+.divcombos a:hover {
+
+   color: #ddaa10;
+}
+ 
+.navbar{
+
+   padding: 0 0 0rem 0;
+}
+
+
+/*MAIN  PAGINA CREAR CUENTA*********************************/
+
+.well {
+    
+   padding: 20px;
+
+}
+
+.mainmain3 .divformulario .crearh {
+   display: inline-block;
+   position: relative;
+} 
+
+.crearh::after,.crearh::before {
+  content:'';
+  position: absolute;
+  width: 5.625rem;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
+}
+
+.crearh::after{
+  left: 14.75rem;
+}
+
+.crearh::before{
+  right: 14.75rem;
+} 
+
+.mainmain3 .divformulario a {
+
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 0.938rem;
+   padding: 4rem;
+   justify-content: center;
+   text-transform: uppercase;
+
+}
+
+.divformulario a:hover {
+
+   color: #ddaa10;
+}
+ 
+
+/*MAIN  PAGINA Destacados*********************************/
+
+.divdestacados {
+
+   padding: 80px;
+}
+
+.mainmain2 .divdestacados h2 {
+   display: inline-block;
+   position: relative;
+} 
+
+h2::after,h2::before {
+  content:'';
+  position: absolute;
+  width: 5.625rem;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
+}
+
+h2::after{
+  left: 12.75rem;
+}
+
+h2::before{
+  right: 12.75rem;
+} 
+
+.mainmain2 .divdestacados a {
+
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 0.938rem;
+   padding: 4rem;
+   justify-content: center;
+   text-transform: uppercase;
+
+}
+
+.divdestacados a:hover {
+
+   color: #ddaa10;
+}
+ 
+.navbar{
+
+   padding: 0 0 0rem 0;
+}
+/*MAIN  PAGINA Quesos Vaca*********************************/
+.divquesovaca {
+
+   padding: 80px;
+}
+
+.mainmain4 .divquesovaca h2 {
+   display: inline-block;
+   position: relative;
+} 
+
+h2::after,h2::before {
+  content:'';
+  position: absolute;
+  width: 5.625rem;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
+}
+
+h2::after{
+  left: 12.75rem;
+}
+
+h2::before{
+  right: 12.75rem;
+} 
+
+.mainmain4 .divquesovaca a {
+
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 0.938rem;
+   padding: 4rem;
+   justify-content: center;
+   text-transform: uppercase;
+
+}
+
+.divquesovaca a:hover {
+
+   color: #ddaa10;
+}
+
+/*MAIN  PAGINA Queso Oveja*********************************/
+.divquesooveja {
+
+   padding: 80px;
+}
+
+.mainmain5 .divquesooveja h2 {
+   display: inline-block;
+   position: relative;
+} 
+
+h2::after,h2::before {
+  content:'';
+  position: absolute;
+  width: 5.625rem;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
+}
+
+h2::after{
+  left: 12.75rem;
+}
+
+h2::before{
+  right: 12.75rem;
+} 
+
+.mainmain5 .divquesooveja a {
+
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 0.938rem;
+   padding: 4rem;
+   justify-content: center;
+   text-transform: uppercase;
+
+}
+
+.divquesooveja a:hover {
+
+   color: #ddaa10;
+}
+
+/*MAIN  PAGINA unproducto *********************************/
+.divunproducto {
+
+   padding: 80px;
+}
+
+.divunproducto h1 {
+  
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 1rem;
+   padding: 1rem;
+   justify-content: center;
+   text-transform: uppercase;
+
+}
+
+.main-product-image {
+
+   width: 500px;
+   height: 500px;
+   padding: 0.5rem;
+   border-radius: 20px;
+   border: 5px double;
+   color: black;
+}
+.main-product-image:hover{
+   -webkit-transform:scale(1.2);transform:scale(1.2);
+}
+.main-product-image {
+   overflow:hidden;
+}
+
+.mainmain6{
+
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 1rem;
+   padding: 1rem;
+   justify-content: center;
+   text-transform: uppercase;
+
+}
+
+#product-sharing i{
+   color:black;
+}
+
+#product-sharing i:hover {
+   color:#ddaa10
+}
+
+/*MAIN  PAGINA carrito *********************************/
+
+.container1 {
+
+   padding: 80px;
+   width: 100%;
+}
+
+.text-center1 img {
+   width: 3rem;
+   height: 3rem;
+}

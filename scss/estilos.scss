@@ -1,0 +1,689 @@
+$dorado:#ddaa10; 
+$negro:black;
+$verde:#3E482F;
+
+
+/*header*****************************************************************/
+
+ header {
+            width: 100%;
+        .navbar{
+            background-color: $dorado;        
+        .navbar-nav {
+        .nav-link{
+            color:$negro;
+        &:hover {
+            color: white;
+        
+         }    
+        }           
+      }
+    }
+  }
+header{ 
+  .dropdown-menu{
+    background-color: $dorado;
+  }
+} 
+
+header {
+.carousel-caption{
+    p{
+        color: $dorado;
+        font-size: 2rem;
+        font-family: 'roboto';
+        text-transform: uppercase;
+        line-height: 1.6;
+        letter-spacing: 2px;
+        font-style: italic;
+        font-weight: bold;
+        text-shadow:
+       0 0 1px rgb(255, 255, 255),
+       -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+       1px 1px 0 #000;
+     
+    em {
+         color: white;
+         font-family: helvetica; 
+         text-decoration-line: none;
+         font-style: normal;
+         font-weight:normal;
+         font-size: 2rem;
+         text-align: center;
+         text-transform: uppercase;
+         line-height: 1.6;
+         letter-spacing: 2px;
+         padding: 10px;
+            
+         }
+       }
+     }
+   }
+   
+header{  
+   .carousel-caption i {
+    color: black;
+    padding: 10px; 
+    font-size: 2,5rem;
+  }
+}
+/*footer***********************************************************/
+.footerfooter {
+
+    background-color:$verde;
+    .redeslist-inline {
+    display: flex;  
+    flex-direction: row; 
+    justify-content: center;
+    padding: 0.3rem;
+    li{
+    a{
+    display: flex;
+    color: white;
+    font-size: 3rem;
+    flex-direction: row; 
+    padding: 0.5rem;
+    list-style: none;
+    text-decoration: none;
+    &:hover {
+    color:$dorado;
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+
+        }
+      }
+    }
+  }
+} 
+
+.footerfooter {
+
+    .menulist-unstyled{
+        list-style: none;
+        padding: 0rem 0rem 0rem 0.5rem ;
+    li a{
+        display: flex;
+        color: white;
+        font-size: 1rem;
+        flex-direction: row; 
+        padding: 0.5rem;
+        list-style: none;
+        text-decoration: none;
+        justify-content: center;
+        &:hover{
+        color: $dorado;
+        -webkit-transform:scale(1.1);transform:scale(1.1);
+
+          }
+        } 
+    }    
+} 
+
+.footerfooter {
+
+    .menulist1-unstyled{
+        list-style: none;
+        padding: 1rem 0rem 0rem 1rem ;
+
+    li {
+
+        display: flex;
+        color: white;
+        font-size: 0.8rem;
+        flex-direction: row; 
+        padding: 0rem 0.8rem 3rem 0rem ;
+        list-style: none;
+        text-decoration: none;
+        justify-content: center;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        text-transform: normal;
+        line-height: 1.6;
+        letter-spacing: 1px;
+      }  
+    
+    }
+
+ }
+
+.footerlogo {
+  overflow:hidden;
+  border: solid 1px black;
+  border-radius: 180px;
+  padding: 10px;
+  &:hover  {
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+  }
+}
+.seguinos {
+  padding: 1px;
+  margin: 1px;
+  color: #ddaa10;
+  font-weight: bold;
+}
+
+.text-uppercase {
+  color:$dorado
+}
+
+.list-unstyled:hover {
+  -webkit-transform:scale(1.1);transform:scale(1.1);
+
+}
+/*MAIN INDEX**********************************************/
+/*BOTON FLOTANTE**********************************************************/
+
+.arrow-btn {
+
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  a{
+   height: 40px;
+   width: 40px;
+   text-align:center ;
+   background:#3E482F;
+   display:block ;
+   border-radius:20px ;
+   cursor: pointer;
+   z-index: 9px;
+   border: solid #ddaa10 2px;
+  span{
+   color: aliceblue;
+   line-height: 40px;
+   font-size: 25px;
+    }
+  }
+} 
+
+.arrow-btn :hover {
+  color: #ddaa10;
+}
+
+ 
+/*COMBOS MAIN INDEX*/
+.mainmain {
+    .divcombos a {
+      display: flex;
+      text-decoration: none;
+      color:black;
+      font-family: 'Roboto', sans-serif;  
+      font-style: normal;
+      font-weight:bold ;
+      font-size: 0.938rem;
+      padding: 3rem;
+      justify-content: center;
+      text-transform: uppercase;
+      &:hover {
+      color: $dorado;
+         }
+       }
+     }
+
+.mainmain {
+    .divcombos{
+    h2{
+    display: inline-block;
+    position: relative;  
+    &::after,&::before{
+    content:'';
+    position: absolute;
+    width: 5.625rem;
+    height: 3px;
+    background-color: black;
+    top: 0.6em;      
+         }  
+      }  
+    }
+  }  
+    h2::after{
+      left: 9rem;
+   }
+    h2::before{
+      right: 9rem;
+   } 
+
+/*DESTACADOS MAIN INDEX*/
+   
+.mainmain {
+    .divdestacados a {
+      display: flex;
+      text-decoration: none;
+      color:black;
+      font-family: 'Roboto', sans-serif;  
+      font-style: normal;
+      font-weight:bold ;
+      font-size: 0.938rem;
+      padding: 1rem;
+      justify-content: center;
+      text-transform: uppercase;
+    &:hover {
+      color: $dorado;
+       }
+     }
+   }
+
+.mainmain {
+    .divdestacados{
+    h2{
+    display: inline-block;
+    position: relative;  
+    &::after,&::before{
+    content:'';
+    position: absolute;
+    width: 4.625rem;
+    height: 3px;
+    background-color: black;
+    top: 0.6em;      
+         }  
+      }  
+    }
+  }  
+  .divdestacados h2::after{
+    left: 13.625rem;
+ }
+ 
+ .divdestacados h2::before{
+    right: 13.625rem;
+ }
+
+/*ESTILOS EN IMAGENES***********************************************************************/   
+.card {
+    opacity: 0.7;
+    border-radius: 20px;
+    border: 5px double;
+    color: black;
+&:hover {
+    opacity: 1.0;
+ 
+  }
+}
+.card-text {
+  display: flex;
+  text-decoration: none;
+  color:black;
+  font-family: 'Roboto', sans-serif;  
+  font-style: normal;
+  font-weight:bold ;
+  font-size: 0.938rem;
+  padding: 1rem;
+  justify-content: center;
+}
+.card-title a{
+  display: flex;
+  text-decoration: none;
+  color:black;
+  font-family: 'Roboto', sans-serif;  
+  font-style: normal;
+  font-weight:bold ;
+  font-size: 1.5rem;
+  padding: 1rem;
+  justify-content: center;
+  text-decoration-line: none;
+
+}
+.card-img-top {
+  border-radius: 16px;
+
+}
+
+
+/*MAIN PAGINA COMBOS**********************************************************************/
+
+.mainmain1 {
+  .divcombos a {
+    display: flex;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight:bold ;
+    font-size: 0.938rem;
+    padding: 4rem;
+    justify-content: center;
+    text-transform: uppercase;
+    &:hover {
+    color: $dorado;
+     
+         }
+       }
+     }
+
+     .mainmain {
+      .divcombos a {
+        display: flex;
+        text-decoration: none;
+        color:black;
+        font-family: 'Roboto', sans-serif;  
+        font-style: normal;
+        font-weight:bold ;
+        font-size: 0.938rem;
+        padding: 3rem;
+        justify-content: center;
+        text-transform: uppercase;
+        &:hover {
+        color: $dorado;
+           }
+         }
+       }
+  
+.mainmain1 {
+      .divcombos{
+      h2{
+      display: inline-block;
+      position: relative;  
+      &::after,&::before{
+      content:'';
+      position: absolute;
+      width: 5.625rem;
+      height: 3px;
+      background-color: black;
+      top: 0.6em;      
+           }  
+        }  
+      }
+    }  
+      h2::after{
+        left: 9rem;
+     }
+      h2::before{
+        right: 9rem;
+     } 
+  
+
+.mainmain1 .navbar{
+  padding: 0 0 0rem 0;
+}
+/*MAIN  PAGINA CREAR CUENTA********************************/
+
+.well {
+  padding: 20px;
+}
+
+.mainmain3 {
+  .divformulario a {
+    display: flex;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight:bold ;
+    font-size: 0.938rem;
+    padding: 5rem;
+    justify-content: center;
+    text-transform: uppercase;
+    &:hover {
+    color: $dorado;
+     
+         }
+       }
+     }
+   
+.mainmain3 {
+  .divformulario{
+  .crearh{
+  display: inline-block;
+  position: relative;  
+  &::after,&::before{
+  content:'';
+  position: absolute;
+  width: 5.625rem;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;      
+       }  
+    }  
+  }
+}  
+.divformulario .crearh::after{
+  left: 14.625rem;
+}
+
+.divformulario .crearh::before{
+  right: 14.625rem;
+}
+
+/*MAIN  PAGINA Destacados*********************************/
+
+.mainmain2 {
+  .divdestacados a {
+    display: flex;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight:bold ;
+    font-size: 0.938rem;
+    padding: 5rem;
+    justify-content: center;
+    text-transform: uppercase;
+    &:hover {
+    color: $dorado;
+     
+         }
+       }
+     }
+   
+.mainmain2 .navbar{
+  padding: 0 0 0rem 0;
+}
+
+.mainmain2 {
+  .divdestacados{
+  h2{
+  display: inline-block;
+  position: relative;  
+  &::after,&::before{
+  content:'';
+  position: absolute;
+  width: 5.625rem;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;      
+       }  
+    }  
+  }
+}  
+.divdestacados h2::after{
+  left: 12.625rem;
+}
+
+.divdestacados h2::before{
+  right: 12.625rem;
+}
+
+
+/*MAIN  PAGINA Queso vaca*********************************/
+
+.mainmain4 {
+  .divquesovaca a {
+    display: flex;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight:bold ;
+    font-size: 0.938rem;
+    padding: 5rem;
+    justify-content: center;
+    text-transform: uppercase;
+    &:hover {
+    color: $dorado;
+     
+         }
+       }
+     }
+   
+.mainmain4 .navbar{
+  padding: 0 0 0rem 0;
+}
+
+.mainmain4 {
+  .divquesovaca{
+  h2{
+  display: inline-block;
+  position: relative;  
+  &::after,&::before{
+  content:'';
+  position: absolute;
+  width: 5.625rem;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;      
+       }  
+    }  
+  }
+}  
+.divquesovaca h2::after{
+  left: 14.625rem;
+}
+
+.divquesovaca h2::before{
+  right: 14.625rem;
+}
+
+/*MAIN  PAGINA Queso Oveja*********************************/
+
+.mainmain5 {
+  .divquesooveja a {
+    display: flex;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight:bold ;
+    font-size: 0.938rem;
+    padding: 5rem;
+    justify-content: center;
+    text-transform: uppercase;
+    &:hover {
+    color: $dorado;
+     
+         }
+       }
+     }
+   
+.mainmain5 .navbar{
+  padding: 0 0 0rem 0;
+}
+
+.mainmain5 {
+  .divquesooveja{
+  h2{
+  display: inline-block;
+  position: relative;  
+  &::after,&::before{
+  content:'';
+  position: absolute;
+  width: 5.625rem;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;      
+       }  
+    }  
+  }
+}  
+.divquesooveja h2::after{
+  left: 14.925rem;
+}
+
+.divquesooveja h2::before{
+  right: 14.925rem;
+}
+
+/*MAIN  PAGINA unproducto *********************************/
+
+.divunproducto {
+  padding: 80px;
+  h1{
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 1rem;
+   padding: 1rem;
+   justify-content: center;
+   text-transform: uppercase;
+  }
+}
+
+.main-product-image {
+
+  width: 500px;
+  height: 500px;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 5px double;
+  color: black;
+  overflow: hidden;
+  &:hover{
+  -webkit-transform:scale(1.2);transform:scale(1.2);
+  }
+}
+
+.mainmain6{
+  display: flex;
+  text-decoration: none;
+  color:black;
+  font-family: 'Roboto', sans-serif;  
+  font-style: normal;
+  font-weight:bold ;
+  font-size: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#product-sharing i{
+  color:black;
+  &:hover {
+  color:#ddaa10
+ }
+}
+
+/*OPERACIONES-SASS DESAFIO *********************************/
+
+
+.holared-icon {
+   padding: 100px;
+}
+
+.holablack-icon {
+  padding: 100px;
+}
+.holablue-icon {
+  padding: 100px;
+}
+@each $imagenes in red, black, blue{
+  .hola#{$imagenes}-icon { 
+        background-color:  
+               #{$imagenes} ;
+   }
+}
+
+$font-weights: ("regular": 100, "medium": 700, "bold": 900, "color": green);
+
+
+.holared-icon h1 {
+  color: map-get($font-weights, color);
+  font-weight: map-get($font-weights, regular);
+ }
+
+ .holablack-icon h1 {
+  color: map-get($font-weights, color);
+  font-weight: map-get($font-weights, bold);
+ }
+
+ .holablue-icon h1 {
+  color: map-get($font-weights, color);
+  font-weight: map-get($font-weights, medium);
+ }
+
+
+ @for $i from 1 through 3 {
+  .holared-icon h1 { font-size: 4em * $i; }
+}
