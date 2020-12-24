@@ -205,12 +205,12 @@ font-size: 3rem;
 
 
 /*COMBOS MAIN INDEX*/
-.divcombos h3 {
+.divcombos h1 {
     display: inline-block;
     position: relative;
 } 
 
-h3::after,h3::before {
+h1::after,h1::before {
    content:'';
    position: absolute;
    width: 4rem;
@@ -219,13 +219,16 @@ h3::after,h3::before {
    top: 0.6em;
 }
 
-h2::after{
-   left: 9rem;
+.divcombos h1::after{
+   left: 8rem;
 }
 
-h2::before{
-   right: 9rem;
+.divcombos h1::before{
+   right: 8rem;
 } 
+.divcombos a h1{
+   font-size: 1.5rem;
+ }
 
 .divcombos a {
 
@@ -249,11 +252,11 @@ h2::before{
 /*DESTACADOS MAIN INDEX*/
 
 
-.divdestacados h3 {
+.divdestacados h1 {
       display: inline-block;
       position: relative;
   } 
-h3::after,h3::before {
+h1::after,h1::before {
      content:'';
      position: absolute;
      width: 3.5rem;
@@ -261,14 +264,18 @@ h3::after,h3::before {
      background-color: black;
      top: 0.6em;
   }
-.divdestacados h3::after{
-   left: 11.625rem;
+.divdestacados h1::after{
+   left: 9.625rem;
 }
 
-.divdestacados h3::before{
-   right: 11.625rem;
+.divdestacados h1::before{
+   right: 9.625rem;
 }   
 
+.divdestacados a h1{
+   font-size: 1.5rem;
+  }
+ 
 .divdestacados a {
 
    display: flex;
@@ -333,12 +340,12 @@ h3::after,h3::before {
 
 /*MAIN  PAGINA COMBOS*********************************/
 
-.mainmain1 .divcombos h3 {
+.mainmain1 .divcombos h1 {
    display: inline-block;
    position: relative;
 } 
 
-h3::after,h3::before {
+h1::after,h1::before {
   content:'';
   position: absolute;
   width: 5.625rem;
@@ -348,11 +355,11 @@ h3::after,h3::before {
 }
 
 h3::after{
-  left: 8rem;
+  left: 9rem;
 }
 
 h3::before{
-  right: 8rem;
+  right: 9rem;
 } 
 
 .mainmain1 .divcombos a {
@@ -389,12 +396,12 @@ h3::before{
 
 }
 
-.mainmain3 .divformulario .crearh {
+.mainmain3 .divformulario h1 {
    display: inline-block;
    position: relative;
 } 
 
-.crearh::after,.crearh::before {
+.divformulario h1::after,.divformulario h1::before {
   content:'';
   position: absolute;
   font-size: 1.8rem;  
@@ -404,12 +411,12 @@ h3::before{
   top: 0.6em;
 }
 
-.crearh::after{
-  left: 12.75rem;
+.divformulario h1::after{
+  left: 11.925rem;
 }
 
-.crearh::before{
-  right: 12.75rem;
+.divformulario h1::before{
+  right: 11.925rem;
 } 
 
 .mainmain3 .divformulario a {
@@ -431,7 +438,9 @@ h3::before{
 
    color: #ddaa10;
 }
- 
+.divformulario a h1{
+   font-size: 1.5rem;
+ }
 
 /*MAIN  PAGINA Destacados*********************************/
 
@@ -440,12 +449,12 @@ h3::before{
    padding: 80px;
 }
 
-.mainmain2 .divdestacados h3 {
+.mainmain2 .divdestacados h1 {
    display: inline-block;
    position: relative;
 } 
 
-h3::after,h3::before {
+h1::after,h1::before {
   content:'';
   position: absolute;
   width: 5.625rem;
@@ -454,12 +463,12 @@ h3::after,h3::before {
   top: 0.6em;
 }
 
-h3::after{
-  left: 12.75rem;
+h1::after{
+  left: 10.625rem;
 }
 
-h3::before{
-  right: 12.75rem;
+h1::before{
+  right: 10.625rem;
 } 
 
 .mainmain2 .divdestacados a {
@@ -486,6 +495,10 @@ h3::before{
 
    padding: 0 0 0rem 0;
 }
+
+.divdestacados a h1{
+   font-size: 1.5rem;
+ }
 /*MAIN  PAGINA Quesos Vaca*********************************/
  
 .mainmain9 {
@@ -518,14 +531,14 @@ h3::before{
    background-color: black;
    top: 0.6em;
 }
-h1::after {
-   left: 9rem;
+.divquesovaca h1::after {
+   left: 10rem;
 }
-h1:before {
-   right: 9rem;
+.divquesovaca h1:before {
+   right: 10rem;
 }
 .divquesovaca a h1 {
-   font-size: 1.3rem;
+   font-size: 1.5rem;
 }
 /*MAIN  PAGINA Queso Oveja*********************************/
  
@@ -559,14 +572,14 @@ h1:before {
    background-color: black;
    top: 0.6em;
 }
-h1::after {
-   left: 9rem;
+.divquesooveja h1::after {
+   left: 10rem;
 }
-h1:before {
-   right: 9rem;
+.divquesooveja h1:before {
+   right: 10rem;
 }
 .divquesooveja a h1 {
-   font-size: 1.3rem;
+   font-size: 1.5rem;
 }
 
 
@@ -612,7 +625,7 @@ h1:before {
    font-family: 'Roboto', sans-serif;  
    font-style: normal;
    font-weight:bold ;
-   font-size: 1rem;
+   font-size: 1.3rem;
    padding: 1rem;
    justify-content: center;
    text-transform: uppercase;
@@ -640,12 +653,12 @@ h1:before {
    height: 3rem;
 }
 
-.divcarrito h3 {
+.divcarrito h1 {
    display: inline-block;
    position: relative;
 } 
 
-h3::after,h3::before {
+h1::after,h1::before {
    content:'';
    position: absolute;
    width: 3.625rem;
@@ -654,11 +667,11 @@ h3::after,h3::before {
    top: 0.6em;
  }
  
- h3::after{
+ h1::after{
    left:7.8rem;
  }
  
- h3::before{
+ h1::before{
    right:7.8rem;
  } 
 
@@ -681,7 +694,9 @@ h3::after,h3::before {
 
    color: #ddaa10;
 }
-
+.divcarrito a h1{
+   font-size: 1.5rem;
+ 
 .text-center  {
    display: flex;
    flex-direction: column;

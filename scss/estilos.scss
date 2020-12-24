@@ -438,7 +438,7 @@ header{
   h1{
   display: inline-block;
   position: relative;
-  font-size: 1.8rem;  
+  font-size: 1.5rem;  
   &::after,&::before{
   content:'';
   position: absolute;
@@ -451,16 +451,14 @@ header{
   }
 }  
 .divformulario h1::after{
-  left: 12.925rem;
+  left: 11.925rem;
 }
 
 .divformulario h1::before{
-  right: 12.925rem;
+  right: 11.925rem;
 }
  
-.divformulario a h1{
-   font-size: 1.5rem ;
-}
+ 
 
 /*MAIN  PAGINA Destacados*********************************/
 
@@ -551,10 +549,10 @@ header{
     }  
   }
 }  
-  h1::after{
+.divquesovaca h1::after{
     left: 10rem;
  }
-  h1:before{
+ .divquesovaca h1::before{
     right: 10rem;
  } 
 
@@ -597,15 +595,15 @@ header{
     }  
   }
 }  
-  h1::after{
-    left: 12rem;
+.divquesooveja h1::after{
+    left: 10rem;
  }
-  h1:before{
-    right: 12rem;
+ .divquesooveja h1::before{
+    right: 10rem;
  } 
 
  .divquesooveja a h1{
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 
@@ -645,7 +643,7 @@ header{
   font-family: 'Roboto', sans-serif;  
   font-style: normal;
   font-weight:bold ;
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding: 1rem;
   justify-content: center;
   text-transform: uppercase;
