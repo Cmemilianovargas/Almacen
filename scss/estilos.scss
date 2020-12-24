@@ -6,15 +6,14 @@ $verde:#3E482F;
 /*header*****************************************************************/
 
  header {
-            width: 100%;
-        .navbar{
-            background-color: $dorado;        
-        .navbar-nav {
-        .nav-link{
-            color:$negro;
-        &:hover {
-            color: white;
-        
+  width: 100%;
+  .navbar{
+  background-color: $dorado;        
+  .navbar-nav {
+  .nav-link{
+  color:$negro;
+  &:hover {
+  color: white;
          }    
         }           
       }
@@ -423,7 +422,7 @@ header{
     font-style: normal;
     font-weight:bold ;
     font-size: 0.938rem;
-    padding: 5rem;
+    padding: 5rem 0rem;
     justify-content: center;
     text-transform: uppercase;
     &:hover {
@@ -451,11 +450,11 @@ header{
   }
 }  
 .divformulario h1::after{
-  left: 11.925rem;
+  left: 11rem;
 }
 
 .divformulario h1::before{
-  right: 11.925rem;
+  right: 11rem;
 }
  
  
