@@ -224,13 +224,13 @@ header{
 
 .mainmain {
     .divcombos{
-    h2{
+    h1{
     display: inline-block;
     position: relative;  
     &::after,&::before{
     content:'';
     position: absolute;
-    width: 5.625rem;
+    width: 4rem;
     height: 3px;
     background-color: black;
     top: 0.6em;      
@@ -238,13 +238,16 @@ header{
       }  
     }
   }  
-    h2::after{
-      left: 9rem;
+    h1::after{
+      left: 8rem;
    }
-    h2::before{
-      right: 9rem;
+    h1::before{
+      right: 8rem;
    } 
 
+   .divcombos a h1{
+    font-size: 1.5rem;
+  }
 /*DESTACADOS MAIN INDEX*/
    
 .mainmain {
@@ -267,13 +270,13 @@ header{
 
 .mainmain {
     .divdestacados{
-    h2{
+    h1{
     display: inline-block;
     position: relative;  
     &::after,&::before{
     content:'';
     position: absolute;
-    width: 4.625rem;
+    width: 3.5rem;
     height: 3px;
     background-color: black;
     top: 0.6em;      
@@ -281,12 +284,16 @@ header{
       }  
     }
   }  
-  .divdestacados h2::after{
-    left: 13.625rem;
+  .divdestacados h1::after{
+    left: 9.625rem;
  }
  
- .divdestacados h2::before{
-    right: 13.625rem;
+ .divdestacados h1::before{
+    right: 9.625rem;
+ }
+
+ .divdestacados a h1{
+  font-size: 1.5rem;
  }
 
 /*ESTILOS EN IMAGENES***********************************************************************/   
@@ -333,6 +340,7 @@ header{
 /*MAIN PAGINA COMBOS**********************************************************************/
 
 .mainmain1 {
+  padding: 20px;
   .divcombos a {
     display: flex;
     text-decoration: none;
@@ -351,33 +359,33 @@ header{
        }
      }
 
-     .mainmain {
-      .divcombos a {
-        display: flex;
-        text-decoration: none;
-        color:black;
-        font-family: 'Roboto', sans-serif;  
-        font-style: normal;
-        font-weight:bold ;
-        font-size: 0.938rem;
-        padding: 3rem;
-        justify-content: center;
-        text-transform: uppercase;
-        &:hover {
-        color: $dorado;
-           }
-         }
-       }
+.mainmain1 {
+    .divcombos a {
+     display: flex;
+     text-decoration: none;
+     color:black;
+     font-family: 'Roboto', sans-serif;  
+     font-style: normal;
+     font-weight:bold ;
+     font-size: 0.938rem;
+     padding: 3rem;
+     justify-content: center;
+     text-transform: uppercase;
+     &:hover {
+     color: $dorado;
+     }
+   }
+ }
   
 .mainmain1 {
       .divcombos{
-      h2{
+      h1{
       display: inline-block;
       position: relative;  
       &::after,&::before{
       content:'';
       position: absolute;
-      width: 5.625rem;
+      width: 4rem;
       height: 3px;
       background-color: black;
       top: 0.6em;      
@@ -385,16 +393,20 @@ header{
         }  
       }
     }  
-      h2::after{
+      h1::after{
         left: 9rem;
      }
-      h2::before{
+      h1::before{
         right: 9rem;
      } 
   
 
 .mainmain1 .navbar{
   padding: 0 0 0rem 0;
+}
+
+.divcombos a h1{
+  font-size: 1.5rem;
 }
 /*MAIN  PAGINA CREAR CUENTA********************************/
 
@@ -423,13 +435,14 @@ header{
    
 .mainmain3 {
   .divformulario{
-  .crearh{
+  h1{
   display: inline-block;
-  position: relative;  
+  position: relative;
+  font-size: 1.8rem;  
   &::after,&::before{
   content:'';
   position: absolute;
-  width: 5.625rem;
+  width: 3.5rem;
   height: 3px;
   background-color: black;
   top: 0.6em;      
@@ -437,12 +450,16 @@ header{
     }  
   }
 }  
-.divformulario .crearh::after{
-  left: 14.625rem;
+.divformulario h1::after{
+  left: 12.925rem;
 }
 
-.divformulario .crearh::before{
-  right: 14.625rem;
+.divformulario h1::before{
+  right: 12.925rem;
+}
+ 
+.divformulario a h1{
+   font-size: 1.5rem ;
 }
 
 /*MAIN  PAGINA Destacados*********************************/
@@ -472,13 +489,13 @@ header{
 
 .mainmain2 {
   .divdestacados{
-  h2{
+  h1{
   display: inline-block;
   position: relative;  
   &::after,&::before{
   content:'';
   position: absolute;
-  width: 5.625rem;
+  width: 3.5rem;
   height: 3px;
   background-color: black;
   top: 0.6em;      
@@ -486,18 +503,21 @@ header{
     }  
   }
 }  
-.divdestacados h2::after{
-  left: 12.625rem;
+.divdestacados h1::after{
+  left: 10.625rem;
 }
 
-.divdestacados h2::before{
-  right: 12.625rem;
+.divdestacados h1::before{
+  right: 10.625rem;
 }
-
+.divdestacados a h1{
+  font-size: 1.5rem;
+}
 
 /*MAIN  PAGINA Queso vaca*********************************/
 
-.mainmain4 {
+.mainmain9 {
+  padding: 20px;
   .divquesovaca a {
     display: flex;
     text-decoration: none;
@@ -506,29 +526,24 @@ header{
     font-style: normal;
     font-weight:bold ;
     font-size: 0.938rem;
-    padding: 5rem;
+    padding: 3rem;
     justify-content: center;
     text-transform: uppercase;
     &:hover {
     color: $dorado;
-     
-         }
        }
      }
-   
-.mainmain4 .navbar{
-  padding: 0 0 0rem 0;
-}
-
-.mainmain4 {
+   }
+    
+.mainmain9 {
   .divquesovaca{
-  h2{
+  h1{
   display: inline-block;
   position: relative;  
   &::after,&::before{
   content:'';
   position: absolute;
-  width: 5.625rem;
+  width: 4rem;
   height: 3px;
   background-color: black;
   top: 0.6em;      
@@ -536,17 +551,19 @@ header{
     }  
   }
 }  
-.divquesovaca h2::after{
-  left: 14.625rem;
-}
+  h1::after{
+    left: 10rem;
+ }
+  h1:before{
+    right: 10rem;
+ } 
 
-.divquesovaca h2::before{
-  right: 14.625rem;
+ .divquesovaca a h1{
+  font-size: 1.5rem;
 }
-
 /*MAIN  PAGINA Queso Oveja*********************************/
-
-.mainmain5 {
+.mainmain10 {
+  padding: 20px;
   .divquesooveja a {
     display: flex;
     text-decoration: none;
@@ -555,29 +572,24 @@ header{
     font-style: normal;
     font-weight:bold ;
     font-size: 0.938rem;
-    padding: 5rem;
+    padding: 3rem;
     justify-content: center;
     text-transform: uppercase;
     &:hover {
     color: $dorado;
-     
-         }
        }
      }
-   
-.mainmain5 .navbar{
-  padding: 0 0 0rem 0;
-}
-
-.mainmain5 {
+   }
+    
+.mainmain10 {
   .divquesooveja{
-  h2{
+  h1{
   display: inline-block;
   position: relative;  
   &::after,&::before{
   content:'';
   position: absolute;
-  width: 5.625rem;
+  width: 4rem;
   height: 3px;
   background-color: black;
   top: 0.6em;      
@@ -585,13 +597,17 @@ header{
     }  
   }
 }  
-.divquesooveja h2::after{
-  left: 14.925rem;
+  h1::after{
+    left: 12rem;
+ }
+  h1:before{
+    right: 12rem;
+ } 
+
+ .divquesooveja a h1{
+  font-size: 1.3rem;
 }
 
-.divquesooveja h2::before{
-  right: 14.925rem;
-}
 
 /*MAIN  PAGINA unproducto *********************************/
 
@@ -612,16 +628,13 @@ header{
 }
 
 .main-product-image {
-
-  width: 500px;
-  height: 500px;
   padding: 0.5rem;
   border-radius: 20px;
   border: 5px double;
   color: black;
   overflow: hidden;
   &:hover{
-  -webkit-transform:scale(1.2);transform:scale(1.2);
+  -webkit-transform:scale(1.1);transform:scale(1.1);
   }
 }
 
@@ -645,45 +658,76 @@ header{
  }
 }
 
-/*OPERACIONES-SASS DESAFIO *********************************/
-
-
-.holared-icon {
-   padding: 100px;
+.divunproducto a h1{
+  font-size: 1.3rem;
 }
 
-.holablack-icon {
-  padding: 100px;
-}
-.holablue-icon {
-  padding: 100px;
-}
-@each $imagenes in red, black, blue{
-  .hola#{$imagenes}-icon { 
-        background-color:  
-               #{$imagenes} ;
-   }
-}
 
-$font-weights: ("regular": 100, "medium": 700, "bold": 900, "color": green);
+/*MAIN  PAGINA carrito *********************************/
 
 
-.holared-icon h1 {
-  color: map-get($font-weights, color);
-  font-weight: map-get($font-weights, regular);
+.text-center1 img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.divcarrito {
+  padding: 20px;
+  width: 100%;
+  h1 {
+  display: inline-block;
+  position: relative;
+  &::after,&::before{
+   content:'';
+   position: absolute;
+   width: 3.625rem;
+   height: 3px;
+   background-color: black;
+   top: 0.6em;
+       }
+     } 
+  } 
+  h1::after{
+    left:7.8rem;
+  }
+  h1::before{
+    right:7.8rem;
+  } 
+
+  .divcarrito a {
+    display: flex;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight:bold ;
+    font-size: 0.938rem;
+    padding: 4rem;
+    justify-content: center;
+    text-transform: uppercase;
+    &:hover{
+    color: #ddaa10;
+    }
+
+ }  
+ .text-center  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content:center;
+  a  {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 20px;
+   margin: 20px;
+   width: 15rem;
+   height: 3rem;
+   justify-content: center;
  }
-
- .holablack-icon h1 {
-  color: map-get($font-weights, color);
-  font-weight: map-get($font-weights, bold);
- }
-
- .holablue-icon h1 {
-  color: map-get($font-weights, color);
-  font-weight: map-get($font-weights, medium);
- }
-
-
- @for $i from 1 through 3 {
-  .holared-icon h1 { font-size: 4em * $i; }
 }
+
+.divcarrito a h1{
+  font-size: 1.5rem;
+}
+

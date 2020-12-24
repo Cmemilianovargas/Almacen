@@ -205,15 +205,15 @@ font-size: 3rem;
 
 
 /*COMBOS MAIN INDEX*/
-.divcombos h2 {
+.divcombos h3 {
     display: inline-block;
     position: relative;
 } 
 
-h2::after,h2::before {
+h3::after,h3::before {
    content:'';
    position: absolute;
-   width: 10.625rem;
+   width: 4rem;
    height: 3px;
    background-color: black;
    top: 0.6em;
@@ -249,24 +249,24 @@ h2::before{
 /*DESTACADOS MAIN INDEX*/
 
 
-.divdestacados h2 {
+.divdestacados h3 {
       display: inline-block;
       position: relative;
   } 
-h2::after,h2::before {
+h3::after,h3::before {
      content:'';
      position: absolute;
-     width: 5.625rem;
+     width: 3.5rem;
      height: 3px;
      background-color: black;
      top: 0.6em;
   }
-.divdestacados h2::after{
-   left: 12.625rem;
+.divdestacados h3::after{
+   left: 11.625rem;
 }
 
-.divdestacados h2::before{
-   right: 12.625rem;
+.divdestacados h3::before{
+   right: 11.625rem;
 }   
 
 .divdestacados a {
@@ -333,12 +333,12 @@ h2::after,h2::before {
 
 /*MAIN  PAGINA COMBOS*********************************/
 
-.mainmain1 .divcombos h2 {
+.mainmain1 .divcombos h3 {
    display: inline-block;
    position: relative;
 } 
 
-h2::after,h2::before {
+h3::after,h3::before {
   content:'';
   position: absolute;
   width: 5.625rem;
@@ -347,11 +347,11 @@ h2::after,h2::before {
   top: 0.6em;
 }
 
-h2::after{
+h3::after{
   left: 8rem;
 }
 
-h2::before{
+h3::before{
   right: 8rem;
 } 
 
@@ -397,18 +397,19 @@ h2::before{
 .crearh::after,.crearh::before {
   content:'';
   position: absolute;
-  width: 5.625rem;
+  font-size: 1.8rem;  
+  width: 3.5rem;
   height: 3px;
   background-color: black;
   top: 0.6em;
 }
 
 .crearh::after{
-  left: 14.75rem;
+  left: 12.75rem;
 }
 
 .crearh::before{
-  right: 14.75rem;
+  right: 12.75rem;
 } 
 
 .mainmain3 .divformulario a {
@@ -439,12 +440,12 @@ h2::before{
    padding: 80px;
 }
 
-.mainmain2 .divdestacados h2 {
+.mainmain2 .divdestacados h3 {
    display: inline-block;
    position: relative;
 } 
 
-h2::after,h2::before {
+h3::after,h3::before {
   content:'';
   position: absolute;
   width: 5.625rem;
@@ -453,11 +454,11 @@ h2::after,h2::before {
   top: 0.6em;
 }
 
-h2::after{
+h3::after{
   left: 12.75rem;
 }
 
-h2::before{
+h3::before{
   right: 12.75rem;
 } 
 
@@ -486,100 +487,88 @@ h2::before{
    padding: 0 0 0rem 0;
 }
 /*MAIN  PAGINA Quesos Vaca*********************************/
-.divquesovaca {
-
-   padding: 80px;
+ 
+.mainmain9 {
+   padding: 20px;
 }
-
-.mainmain4 .divquesovaca h2 {
-   display: inline-block;
-   position: relative;
-} 
-
-h2::after,h2::before {
-  content:'';
-  position: absolute;
-  width: 5.625rem;
-  height: 3px;
-  background-color: black;
-  top: 0.6em;
-}
-
-h2::after{
-  left: 12.75rem;
-}
-
-h2::before{
-  right: 12.75rem;
-} 
-
-.mainmain4 .divquesovaca a {
-
+.mainmain9 .divquesovaca a {
    display: flex;
    text-decoration: none;
-   color:black;
-   font-family: 'Roboto', sans-serif;  
+   color: black;
+   font-family: 'Roboto', sans-serif;
    font-style: normal;
-   font-weight:bold ;
+   font-weight: bold;
    font-size: 0.938rem;
-   padding: 4rem;
+   padding: 3rem;
    justify-content: center;
    text-transform: uppercase;
-
 }
-
-.divquesovaca a:hover {
-
+.mainmain9 .divquesovaca a:hover {
    color: #ddaa10;
 }
-
+.mainmain9 .divquesovaca h1 {
+   display: inline-block;
+   position: relative;
+}
+.mainmain9 .divquesovaca h1::after, .mainmain9 .divquesovaca h1::before {
+   content: '';
+   position: absolute;
+   width: 4rem;
+   height: 3px;
+   background-color: black;
+   top: 0.6em;
+}
+h1::after {
+   left: 9rem;
+}
+h1:before {
+   right: 9rem;
+}
+.divquesovaca a h1 {
+   font-size: 1.3rem;
+}
 /*MAIN  PAGINA Queso Oveja*********************************/
-.divquesooveja {
-
-   padding: 80px;
+ 
+.mainmain10 {
+   padding: 20px;
 }
-
-.mainmain5 .divquesooveja h2 {
-   display: inline-block;
-   position: relative;
-} 
-
-h2::after,h2::before {
-  content:'';
-  position: absolute;
-  width: 5.625rem;
-  height: 3px;
-  background-color: black;
-  top: 0.6em;
-}
-
-h2::after{
-  left: 12.75rem;
-}
-
-h2::before{
-  right: 12.75rem;
-} 
-
-.mainmain5 .divquesooveja a {
-
+.mainmain10 .divquesooveja a {
    display: flex;
    text-decoration: none;
-   color:black;
-   font-family: 'Roboto', sans-serif;  
+   color: black;
+   font-family: 'Roboto', sans-serif;
    font-style: normal;
-   font-weight:bold ;
+   font-weight: bold;
    font-size: 0.938rem;
-   padding: 4rem;
+   padding: 3rem;
    justify-content: center;
    text-transform: uppercase;
-
 }
-
-.divquesooveja a:hover {
-
+.mainmain10 .divquesooveja a:hover {
    color: #ddaa10;
 }
+.mainmain10 .divquesooveja h1 {
+   display: inline-block;
+   position: relative;
+}
+.mainmain10 .divquesooveja h1::after, .mainmain10 .divquesooveja h1::before {
+   content: '';
+   position: absolute;
+   width: 4rem;
+   height: 3px;
+   background-color: black;
+   top: 0.6em;
+}
+h1::after {
+   left: 9rem;
+}
+h1:before {
+   right: 9rem;
+}
+.divquesooveja a h1 {
+   font-size: 1.3rem;
+}
+
 
 /*MAIN  PAGINA unproducto *********************************/
 .divunproducto {
@@ -604,20 +593,17 @@ h2::before{
 
 .main-product-image {
 
-   width: 500px;
-   height: 500px;
+    
    padding: 0.5rem;
    border-radius: 20px;
    border: 5px double;
    color: black;
-}
-.main-product-image:hover{
-   -webkit-transform:scale(1.2);transform:scale(1.2);
-}
-.main-product-image {
-   overflow:hidden;
-}
+   overflow: hidden;}
 
+.main-product-image:hover{
+  -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+ 
 .mainmain6{
 
    display: flex;
@@ -643,9 +629,9 @@ h2::before{
 
 /*MAIN  PAGINA carrito *********************************/
 
-.container1 {
+.divcarrito {
 
-   padding: 80px;
+   padding: 20px;
    width: 100%;
 }
 
@@ -653,3 +639,65 @@ h2::before{
    width: 3rem;
    height: 3rem;
 }
+
+.divcarrito h3 {
+   display: inline-block;
+   position: relative;
+} 
+
+h3::after,h3::before {
+   content:'';
+   position: absolute;
+   width: 3.625rem;
+   height: 3px;
+   background-color: black;
+   top: 0.6em;
+ }
+ 
+ h3::after{
+   left:7.8rem;
+ }
+ 
+ h3::before{
+   right:7.8rem;
+ } 
+
+ .divcarrito a {
+
+   display: flex;
+   text-decoration: none;
+   color:black;
+   font-family: 'Roboto', sans-serif;  
+   font-style: normal;
+   font-weight:bold ;
+   font-size: 0.938rem;
+   padding: 4rem;
+   justify-content: center;
+   text-transform: uppercase;
+
+}
+
+.divcarrito a:hover {
+
+   color: #ddaa10;
+}
+
+.text-center  {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content:center;
+}
+
+.text-center a  {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 20px;
+   margin: 20px;
+   width: 15rem;
+   height: 3rem;
+   justify-content: center;
+
+}
+
