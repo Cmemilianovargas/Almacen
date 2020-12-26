@@ -1,8 +1,9 @@
 $dorado:#ddaa10; 
 $negro:black;
 $verde:#3E482F;
-
-
+$small: 330px;
+$medium: 375px;
+$large: 767px;
 /*header*****************************************************************/
 
  header {
@@ -728,3 +729,137 @@ header{
   font-size: 1.5rem;
 }
 
+
+@media only screen and (max-width: $small) {
+  .arrow-btn {
+    display:none;
+    
+  }
+}
+
+@media only screen and (max-width: $medium) {
+  .arrow-btn {
+    display:none;
+    
+  }
+}
+
+@media only screen and (max-width: $large) {
+  .arrow-btn {
+    display:none;
+    
+  }
+}
+@media only screen and (max-width: $small) {
+  header {
+    .carousel-caption{
+      p{
+          color: $dorado;
+          font-size: 1rem;
+          font-family: 'roboto';
+          text-transform: uppercase;
+          line-height: 1.6;
+          letter-spacing: 2px;
+          font-style: italic;
+          font-weight: bold;
+          text-shadow:
+         0 0 1px rgb(255, 255, 255),
+         -1px -1px 0 #000,  
+         1px -1px 0 #000,
+         -1px 1px 0 #000,
+         1px 1px 0 #000;
+       
+      em {
+           color: white;
+           font-family: helvetica; 
+           text-decoration-line: none;
+           font-style: normal;
+           font-weight:normal;
+           font-size: 0.5rem;
+           text-align: center;
+           text-transform: uppercase;
+           line-height: 1.6;
+           letter-spacing: 2px;
+           padding: 10px;
+              
+           }
+         }
+       }
+     }    
+  }  
+
+@media only screen and (max-width: $medium) {
+    header {
+      .carousel-caption{
+          p{
+              color: $dorado;
+              font-size: 1rem;
+              font-family: 'roboto';
+              text-transform: uppercase;
+              line-height: 1.6;
+              letter-spacing: 2px;
+              font-style: italic;
+              font-weight: bold;
+              text-shadow:
+             0 0 1px rgb(255, 255, 255),
+             -1px -1px 0 #000,  
+             1px -1px 0 #000,
+             -1px 1px 0 #000,
+             1px 1px 0 #000;
+           
+          em {
+               color: white;
+               font-family: helvetica; 
+               text-decoration-line: none;
+               font-style: normal;
+               font-weight:normal;
+               font-size: 0.5rem;
+               text-align: center;
+               text-transform: uppercase;
+               line-height: 1.6;
+               letter-spacing: 2px;
+               padding: 10px;
+                  
+               }
+             }
+           }
+         }    
+      }  
+
+@media only screen and (max-width: $large) {
+    header {
+      .carousel-caption{
+        p{
+           color: $dorado;
+           font-size: 1rem;
+           font-family: 'roboto';
+           text-transform: uppercase;
+           line-height: 1.6;
+           letter-spacing: 2px;
+           font-style: italic;
+           font-weight: bold;
+           text-shadow:
+           0 0 1px rgb(255, 255, 255),
+          -1px -1px 0 #000,  
+           1px -1px 0 #000,
+          -1px 1px 0 #000,
+           1px 1px 0 #000;
+               
+     em {
+           color: white;
+           font-family: helvetica; 
+           text-decoration-line: none;
+           font-style: normal;
+           font-weight:normal;
+           font-size: 0.5rem;
+           text-align: center;
+           text-transform: uppercase;
+           line-height: 1.6;
+           letter-spacing: 2px;
+           padding: 10px;
+                      
+                   }
+                 }
+               }
+             }    
+          }  

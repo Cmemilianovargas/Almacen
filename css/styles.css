@@ -716,3 +716,100 @@ h1::after,h1::before {
 
 }
 
+
+@media only screen and (max-width: 320px) {
+   .arrow-btn {
+     display:none;
+   }
+ }
+ @media only screen and (max-width: 375px) {
+   .arrow-btn {
+     display:none;
+     
+   }
+ }
+ 
+ @media only screen and (max-width: 767px) {
+   .arrow-btn {
+     display:none;
+     
+   }
+ }
+ @media only screen and (max-width: 330px) {
+   header .carousel-caption p {
+     color: #ddaa10;
+     font-size: 1rem;
+     font-family: "roboto";
+     text-transform: uppercase;
+     line-height: 1.6;
+     letter-spacing: 2px;
+     font-style: italic;
+     font-weight: bold;
+     text-shadow: 0 0 1px white, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+   }
+   header .carousel-caption p em {
+     color: white;
+     font-family: helvetica;
+     text-decoration-line: none;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 0.5rem;
+     text-align: center;
+     text-transform: uppercase;
+     line-height: 1.6;
+     letter-spacing: 2px;
+     padding: 10px;
+   }
+ }
+ @media only screen and (max-width: 375px) {
+   header .carousel-caption p {
+     color: #ddaa10;
+     font-size: 1rem;
+     font-family: "roboto";
+     text-transform: uppercase;
+     line-height: 1.6;
+     letter-spacing: 2px;
+     font-style: italic;
+     font-weight: bold;
+     text-shadow: 0 0 1px white, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+   }
+   header .carousel-caption p em {
+     color: white;
+     font-family: helvetica;
+     text-decoration-line: none;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 0.5rem;
+     text-align: center;
+     text-transform: uppercase;
+     line-height: 1.6;
+     letter-spacing: 2px;
+     padding: 10px;
+   }
+ }
+ @media only screen and (max-width: 767px) {
+   header .carousel-caption p {
+     color: #ddaa10;
+     font-size: 1rem;
+     font-family: "roboto";
+     text-transform: uppercase;
+     line-height: 1.6;
+     letter-spacing: 2px;
+     font-style: italic;
+     font-weight: bold;
+     text-shadow: 0 0 1px white, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+   }
+   header .carousel-caption p em {
+     color: white;
+     font-family: helvetica;
+     text-decoration-line: none;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 0.5rem;
+     text-align: center;
+     text-transform: uppercase;
+     line-height: 1.6;
+     letter-spacing: 2px;
+     padding: 10px;
+   }
+ }
