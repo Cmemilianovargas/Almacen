@@ -249,10 +249,11 @@ header{
     font-size: 1.5rem;
   }
 /*DESTACADOS MAIN INDEX*/
-   
-.mainmain {
-    .divdestacados a {
-      display: flex;
+
+
+.mainmain{
+     .divdestacados a {
+       display: flex;
       text-decoration: none;
       color:black;
       font-family: 'Roboto', sans-serif;  
@@ -270,6 +271,7 @@ header{
 
 .mainmain {
     .divdestacados{
+    padding: 30px 0px;  
     h1{
     display: inline-block;
     position: relative;  
@@ -340,7 +342,7 @@ header{
 /*MAIN PAGINA COMBOS**********************************************************************/
 
 .mainmain1 {
-  padding: 20px;
+  padding: 60px 0px;
   .divcombos a {
     display: flex;
     text-decoration: none;
@@ -411,11 +413,11 @@ header{
 /*MAIN  PAGINA CREAR CUENTA********************************/
 
 .well {
-  padding: 20px;
+  padding: 10px;
 }
 
 .mainmain3 {
-  .divformulario a {
+   .divformulario a {
     display: flex;
     text-decoration: none;
     color:black;
@@ -435,6 +437,7 @@ header{
    
 .mainmain3 {
   .divformulario{
+  padding: 30px 0px;  
   h1{
   display: inline-block;
   position: relative;
@@ -487,6 +490,7 @@ header{
 
 .mainmain2 {
   .divdestacados{
+  padding: 20px 0px;
   h1{
   display: inline-block;
   position: relative;  
@@ -515,7 +519,7 @@ header{
 /*MAIN  PAGINA Queso vaca*********************************/
 
 .mainmain9 {
-  padding: 20px;
+  padding: 20px 0px;
   .divquesovaca a {
     display: flex;
     text-decoration: none;
@@ -535,6 +539,7 @@ header{
     
 .mainmain9 {
   .divquesovaca{
+  padding: 30px 0px;
   h1{
   display: inline-block;
   position: relative;  
@@ -561,7 +566,7 @@ header{
 }
 /*MAIN  PAGINA Queso Oveja*********************************/
 .mainmain10 {
-  padding: 20px;
+  padding: 20px 0px;
   .divquesooveja a {
     display: flex;
     text-decoration: none;
@@ -581,6 +586,7 @@ header{
     
 .mainmain10 {
   .divquesooveja{
+  padding: 30px 0px;
   h1{
   display: inline-block;
   position: relative;  
@@ -610,7 +616,7 @@ header{
 /*MAIN  PAGINA unproducto *********************************/
 
 .divunproducto {
-  padding: 80px;
+  padding: 80px 0px;
   h1{
    display: flex;
    text-decoration: none;
@@ -660,6 +666,11 @@ header{
   font-size: 1.3rem;
 }
 
+.btn {
+  padding: 4px;
+  margin: 8px;
+}
+
 
 /*MAIN  PAGINA carrito *********************************/
 
@@ -670,7 +681,7 @@ header{
 }
 
 .divcarrito {
-  padding: 20px;
+  padding: 30px;
   width: 100%;
   h1 {
   display: inline-block;
@@ -733,7 +744,7 @@ header{
 @media only screen and (max-width: $small) {
   .arrow-btn {
     display:none;
-    
+ 
   }
 }
 
